@@ -1,0 +1,152 @@
+@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
+@import "animate.css";
+@import url(http://fonts.googleapis.com/css?family=Marvel);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*========================================================
+                    Main layout styles
+=========================================================*/
+
+.ic {
+  border:0;
+  float:right;
+  background:#fff;
+  color:#f00;
+  width:50%;
+  line-height:10px;
+  font-size:10px;
+  margin:-220% 0 0 0;
+  overflow:hidden;
+  padding:0
+} 
+a {
+  font: inherit;
+  color: #129894;
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+/*============  Floats  =============*/
+.put-left {
+  float: left;
+}
+.put-right {
+  float: right;
+}
+
+
+/*========================================================
+                    HEADER styles
+=========================================================*/
+#header {
+  position: relative;
+  background: #ffffff;
+}
+@media (max-width: 1199px) {
+  #header {
+    text-align: center;
+  }
+}
+.brand {
+  text-align: center;
+}
+.brand h1 {
+  display: inline-block;
+  text-align: left;
+}
+@media (max-width: 979px) {
+  .brand {
+    float: none;
+  }
+}
+.nav {
+  text-align: right;
+}
+@media (max-width: 979px) {
+  .nav {
+    text-align: center;
+    float: none;
+  }
+}
+/* Main menu styles
+========================================================*/
+.sf-menu {
+  display: inline-block;
+  margin-right: -10px;
+}
+.sf-menu > li {
+  position: relative;
+  float: left;
+  font: 400 22px/22px 'Marvel', sans-serif;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 1.1px;
+}
+.sf-menu > li > a {
+  position: relative;
+  display: inline-block;
+  padding: 23px 10px 21px;
+  color: #000000;
+}
+.sf-menu > li.sfHover > a,
+.sf-menu > li.current > a,
+.sf-menu > li > a:hover {
+  background: #edecec;
+  color: #02918d;
+  text-decoration: none;
+}
+.sf-menu > li.sfHover > a:after,
+.sf-menu > li.current > a:after,
+.sf-menu > li > a:hover:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: #02918d;
+}
+.sf-menu > li + li {
+  margin-left: 39px;
+}
+.sf-menu ul {
+  position: absolute;
+  display: none;
+  width: 220px;
+  padding: 10px 0;
+  text-align: left;
+  background: #ffffff;
+  z-index: 2;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.25);
+}
+.sf-menu ul li {
+  display: block;
+  position: relative;
+  text-transform: none;
+}
+.sf-menu ul li.sfHover > a,
+.sf-menu ul li.current > a,
+.sf-menu ul li a:hover {
+  background: #129894;
+  color: #ffffff;
+  text-decoration: none;
+}
+.sf-menu ul li + li {
+  margin-top: 8px;
+}
+.sf-menu ul li a {
+  display: block;
+  padding: 5px 20px;
+  color: #000000;
+}
+/* First level sub-menu styles
+========================================================*/
+.sf-menu > li > ul {
+  top: 120%;
+  left: 50%;
+  margin-left: -110px;
+}
+
