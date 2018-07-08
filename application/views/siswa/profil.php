@@ -1,10 +1,10 @@
 
 <?php
-  $this->load->view('siswa/header');
+  $this->load->view('siswa/themplates/header');
 ?>
 
 <?php
-  $this->load->view('siswa/navbar');
+  $this->load->view('siswa/themplates/navbar');
 ?>
  
     <section class="content">
@@ -124,5 +124,5 @@
 
 <script src="<?php echo base_url(); ?>assets/js/pages/index.js" type="text/javascript"></script>
 <?php
-  $this->load->view('siswa/footer');
+  $this->load->view('siswa/themplates/footer');
 ?>

@@ -1,10 +1,10 @@
 
 <?php
-  $this->load->view('siswa/header');
+  $this->load->view('siswa/themplates/header');
 ?>
 
 <?php
-  $this->load->view('siswa/navbar');
+  $this->load->view('siswa/themplates/navbar');
 ?>
 
     <section class="content">
@@ -785,6 +785,6 @@
     </section>
 
 <?php
-  $this->load->view('siswa/footer');
+  $this->load->view('siswa/themplates/footer');
 ?>
     

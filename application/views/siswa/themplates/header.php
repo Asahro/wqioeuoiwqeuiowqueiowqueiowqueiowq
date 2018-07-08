@@ -68,7 +68,7 @@
         <meta property="og:url"                 content="<?php echo base_url(); ?>harga-bimbel-privat-murah.html" />
         <meta property="og:site_name"           content="Bimbel Privat Terbaik Ya Bimbelan" />
 
-        <link rel="shortcut icon" href="<?php echo base_url(); ?>assets/images/ico/favicon.ico">
+        <link rel="shortcut icon" href="<?php echo base_url(); ?>assetsd/images/ico/favicon.ico">
 
 
     <script type='application/ld+json'> 
@@ -77,8 +77,8 @@
       "@type": "Jasa Bimbel",
       "name": "Ahmad Sahro",
       "url": "<?php echo base_url(); ?>harga-bimbel-privat-murah.html",
-      "logo": "<?php echo base_url(); ?>assets/images/logo-bimbelan.png",
-      "image": "<?php echo base_url(); ?>assets/images/logo-bimbelan.png",
+      "logo": "<?php echo base_url(); ?>assetsd/images/logo-bimbelan.png",
+      "image": "<?php echo base_url(); ?>assetsd/images/logo-bimbelan.png",
       "description": "Harga Bimbel Privat murah dan berdedikasi tinggi. Dengan sistem pemesanan modern, pengajar berkualitas dan garansi uang kembali",
       "address": {
         "@type": "PostalAddress",
@@ -110,27 +110,27 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic-ext" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
 
-    <link href="<?php echo base_url(); ?>assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="<?php echo base_url(); ?>assets/node-waves/waves.css" rel="stylesheet" />
-    <link href="<?php echo base_url(); ?>assets/animate-css/animate.css" rel="stylesheet" />
-    <link href="<?php echo base_url(); ?>assets/morrisjs/morris.css" rel="stylesheet" />
-    <link href="<?php echo base_url(); ?>assets/css/style.min.css" rel="stylesheet">
-    <link href="<?php echo base_url(); ?>assets/css/font-awesome.min.css" rel="stylesheet">
-    <link href="<?php echo base_url(); ?>assets/css/themes/all-themes.css" rel="stylesheet" />
+    <link href="<?php echo base_url(); ?>assetsd/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>assetsd/node-waves/waves.css" rel="stylesheet" />
+    <link href="<?php echo base_url(); ?>assetsd/animate-css/animate.css" rel="stylesheet" />
+    <link href="<?php echo base_url(); ?>assetsd/morrisjs/morris.css" rel="stylesheet" />
+    <link href="<?php echo base_url(); ?>assetsd/css/style.min.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>assetsd/css/font-awesome.min.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>assetsd/css/themes/all-themes.css" rel="stylesheet" />
 
-    <link href="<?php echo base_url(); ?>assets/bootstrap-colorpicker/css/bootstrap-colorpicker.css" rel="stylesheet" />
-    <link href="<?php echo base_url(); ?>assets/dropzone/dropzone.css" rel="stylesheet">
-    <link href="<?php echo base_url(); ?>assets/multi-select/css/multi-select.css" rel="stylesheet">
-    <link href="<?php echo base_url(); ?>assets/jquery-spinner/css/bootstrap-spinner.css" rel="stylesheet">
-    <link href="<?php echo base_url(); ?>assets/bootstrap-tagsinput/bootstrap-tagsinput.css" rel="stylesheet">
-    <link href="<?php echo base_url(); ?>assets/bootstrap-select/css/bootstrap-select.css" rel="stylesheet" />
-    <link href="<?php echo base_url(); ?>assets/nouislider/nouislider.min.css" rel="stylesheet" />
-    <link href="<?php echo base_url(); ?>assets/bootstrap-material-datetimepicker/css/bootstrap-material-datetimepicker.css" rel="stylesheet" />
-    <link href="<?php echo base_url(); ?>assets/waitme/waitMe.css" rel="stylesheet" />
+    <link href="<?php echo base_url(); ?>assetsd/bootstrap-colorpicker/css/bootstrap-colorpicker.css" rel="stylesheet" />
+    <link href="<?php echo base_url(); ?>assetsd/dropzone/dropzone.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>assetsd/multi-select/css/multi-select.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>assetsd/jquery-spinner/css/bootstrap-spinner.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>assetsd/bootstrap-tagsinput/bootstrap-tagsinput.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>assetsd/bootstrap-select/css/bootstrap-select.css" rel="stylesheet" />
+    <link href="<?php echo base_url(); ?>assetsd/nouislider/nouislider.min.css" rel="stylesheet" />
+    <link href="<?php echo base_url(); ?>assetsd/bootstrap-material-datetimepicker/css/bootstrap-material-datetimepicker.css" rel="stylesheet" />
+    <link href="<?php echo base_url(); ?>assetsd/waitme/waitMe.css" rel="stylesheet" />
 
     <!--[if lt IE 9]>
-        <script src="<?php echo base_url(); ?>assets/js/html5shiv.js"></script>
-        <script src="<?php echo base_url(); ?>assets/js/respond.min.js"></script>
+        <script src="<?php echo base_url(); ?>assetsd/js/html5shiv.js"></script>
+        <script src="<?php echo base_url(); ?>assetsd/js/respond.min.js"></script>
     <![endif]-->    
 
 
