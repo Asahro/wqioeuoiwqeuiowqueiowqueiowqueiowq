@@ -38,14 +38,14 @@
                                         <div class="col-12">
 
                                             <article class="card-body">
-                                                <a href="login.html" class="float-right btn btn-outline-primary">Sudah Punya akun ?</a>
+                                                <a href="<?= base_url() ?>login" class="float-right btn btn-outline-primary">Sudah Punya akun ?</a>
                                                 <h4 class="card-title mb-4 mt-1">Halaman Register</h4>
                                                 <p>
                                                     <a href="" class="btn btn-block btn-outline-info"> <i class="fab fa-twitter"></i> Register dengan Twitter</a>
                                                     <a href="" class="btn btn-block btn-outline-primary"> <i class="fab fa-facebook-f"></i> Register dengan facebook</a>
                                                 </p>
                                             <hr>
-                                            <form  action="<?php echo base_url(); ?>ceklogin"  target="_top" method="post">
+                                            <form  action="<?php echo base_url(); ?>cekregister"  target="_top" method="post">
                                               <div class="form-group">
                                                   <input name="id" class="form-control" placeholder="Nama">
                                               </div> <!-- form-group// -->
@@ -60,8 +60,6 @@
                                               </div> <!-- form-group// -->  
 
                                             <button type="submit" class="btn btn-primary btn-block float-right col-6"> Masuk</button>
-
-
                                             </form>     
                                           </article>
                                         </div>
