@@ -44,6 +44,7 @@
                                                     <a href="" class="btn btn-block btn-outline-info"> <i class="fab fa-twitter"></i> Register dengan Twitter</a>
                                                     <a href="" class="btn btn-block btn-outline-primary"> <i class="fab fa-facebook-f"></i> Register dengan facebook</a>
                                                 </p>
+                                                
                                             <hr>
                                             <form  action="<?php echo base_url(); ?>cekregister"  target="_top" method="post">
                                               <div class="form-group">
