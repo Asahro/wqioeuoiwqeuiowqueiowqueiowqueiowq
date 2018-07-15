@@ -1,0 +1,1646 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <title>Changelogs | Bootstrap Based Admin Template - Material Design</title>
+
+    <!-- Favicon-->
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic-ext" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
+
+
+    
+    <!-- Bootstrap Core Css -->
+    <link href="assets/plugins/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <!-- Waves Effect Css -->
+    <link href="assets/plugins/node-waves/waves.css" rel="stylesheet" />
+    <!-- Morris Css -->
+    <link href="assets/plugins/morrisjs/morris.css" rel="stylesheet" />
+    <!-- Animation Css -->
+    <link href="assets/plugins/animate-css/animate.css" rel="stylesheet" />
+    <!-- JQuery DataTable Css -->
+    <link href="assets/plugins/jquery-datatable/skin/bootstrap/css/dataTables.bootstrap.css" rel="stylesheet">
+    <!-- Custom Css -->
+    <link href="assets/plugins/jasny/bootstrap-fileupload.min.css" rel="stylesheet">
+    
+    <link href="assets/css/style.css" rel="stylesheet">
+    <!-- AdminBSB Themes. You can choose a theme from css/themes instead of get all themes -->
+    <link href="assets/css/themes/all-themes.css" rel="stylesheet" />
+    <!-- calender -->
+    <link href="assets/css/stylecalender.css" rel="stylesheet" type="text/css" media="all" />
+
+</head>
+
+<body class="theme-red">
+    <!-- Page Loader -->
+    <div class="page-loader-wrapper">
+        <div class="loader">
+            <div class="preloader">
+                <div class="spinner-layer pl-red">
+                    <div class="circle-clipper left">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="circle-clipper right">
+                        <div class="circle"></div>
+                    </div>
+                </div>
+            </div>
+            <p>Please wait...</p>
+        </div>
+    </div>
+    <!-- #END# Page Loader -->
+    <!-- Overlay For Sidebars -->
+    <div class="overlay"></div>
+    <!-- #END# Overlay For Sidebars -->
+    <!-- Search Bar -->
+    <div class="search-bar">
+        <div class="search-icon">
+            <i class="material-icons">search</i>
+        </div>
+        <input type="text" placeholder="START TYPING...">
+        <div class="close-search">
+            <i class="material-icons">close</i>
+        </div>
+    </div>
+    <!-- #END# Search Bar -->
+    <!-- Top Bar -->
+    <nav class="navbar">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a href="javascript:void(0);" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false"></a>
+                <a href="javascript:void(0);" class="bars"></a>
+                <a class="navbar-brand" href="Dasboar.html">ADMINBSB - MATERIAL DESIGN</a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <!-- Call Search -->
+                    <!-- <li><a href="javascript:void(0);" class="js-search" data-close="true"><i class="material-icons">search</i></a></li>
+                     --><!-- #END# Call Search -->
+                    <!-- Notifications -->
+                    <li class="dropdown">
+                        <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button">
+                            <i class="material-icons">notifications</i>
+                            <span class="label-count">7</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="header">NOTIFICATIONS</li>
+                            <li class="body">
+                                <ul class="menu">
+                                    <li>
+                                        <a href="javascript:void(0);">
+                                            <div class="icon-circle bg-light-green">
+                                                <i class="material-icons">date_range</i>
+                                            </div>
+                                            <div class="menu-info">
+                                                <h4>12 new members joined</h4>
+                                                <p>
+                                                    <i class="material-icons">access_time</i> 14 mins ago
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);">
+                                            <div class="icon-circle bg-cyan">
+                                                <i class="material-icons">add_shopping_cart</i>
+                                            </div>
+                                            <div class="menu-info">
+                                                <h4>4 sales made</h4>
+                                                <p>
+                                                    <i class="material-icons">access_time</i> 22 mins ago
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);">
+                                            <div class="icon-circle bg-red">
+                                                <i class="material-icons">delete_forever</i>
+                                            </div>
+                                            <div class="menu-info">
+                                                <h4><b>Nancy Doe</b> deleted account</h4>
+                                                <p>
+                                                    <i class="material-icons">access_time</i> 3 hours ago
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);">
+                                            <div class="icon-circle bg-orange">
+                                                <i class="material-icons">mode_edit</i>
+                                            </div>
+                                            <div class="menu-info">
+                                                <h4><b>Nancy</b> changed name</h4>
+                                                <p>
+                                                    <i class="material-icons">access_time</i> 2 hours ago
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);">
+                                            <div class="icon-circle bg-blue-grey">
+                                                <i class="material-icons">comment</i>
+                                            </div>
+                                            <div class="menu-info">
+                                                <h4><b>John</b> commented your post</h4>
+                                                <p>
+                                                    <i class="material-icons">access_time</i> 4 hours ago
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);">
+                                            <div class="icon-circle bg-light-green">
+                                                <i class="material-icons">cached</i>
+                                            </div>
+                                            <div class="menu-info">
+                                                <h4><b>John</b> updated status</h4>
+                                                <p>
+                                                    <i class="material-icons">access_time</i> 3 hours ago
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);">
+                                            <div class="icon-circle bg-purple">
+                                                <i class="material-icons">settings</i>
+                                            </div>
+                                            <div class="menu-info">
+                                                <h4>Settings updated</h4>
+                                                <p>
+                                                    <i class="material-icons">access_time</i> Yesterday
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="footer">
+                                <a href="#">View All Notifications</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- #END# Notifications -->
+                    <!-- Tasks -->
+                    <!-- 
+                        <li class="dropdown">
+                            <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button">
+                                <i class="material-icons">flag</i>
+                                <span class="label-count">9</span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="header">TASKS</li>
+                                <li class="body">
+                                    <ul class="menu tasks">
+                                        <li>
+                                            <a href="javascript:void(0);">
+                                                <h4>
+                                                    Footer display issue
+                                                    <small>32%</small>
+                                                </h4>
+                                                <div class="progress">
+                                                    <div class="progress-bar bg-pink" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 32%">
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0);">
+                                                <h4>
+                                                    Make new buttons
+                                                    <small>45%</small>
+                                                </h4>
+                                                <div class="progress">
+                                                    <div class="progress-bar bg-cyan" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 45%">
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0);">
+                                                <h4>
+                                                    Create new dashboard
+                                                    <small>54%</small>
+                                                </h4>
+                                                <div class="progress">
+                                                    <div class="progress-bar bg-teal" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 54%">
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0);">
+                                                <h4>
+                                                    Solve transition issue
+                                                    <small>65%</small>
+                                                </h4>
+                                                <div class="progress">
+                                                    <div class="progress-bar bg-orange" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 65%">
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0);">
+                                                <h4>
+                                                    Answer GitHub questions
+                                                    <small>92%</small>
+                                                </h4>
+                                                <div class="progress">
+                                                    <div class="progress-bar bg-purple" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 92%">
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="footer">
+                                    <a href="javascript:void(0);">View All Tasks</a>
+                                </li>
+                            </ul>
+                        </li>
+                     -->
+                     <!-- #END# Tasks -->
+
+
+
+
+
+
+
+                    <li class="pull-right"><a href="javascript:void(0);" class="js-right-sidebar" data-close="true"><i class="material-icons">more_vert</i></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- #Top Bar -->
+    <section>
+        <!-- Left Sidebar -->
+        <aside id="leftsidebar" class="sidebar">
+            <!-- User Info -->
+            <div class="user-info">
+                <div class="image">
+                    <img src="assets/images/user.png" width="48" height="48" alt="User" />
+                </div>
+                <div class="info-container">
+                    <div class="name" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">John Doe</div>
+                    <div class="email">john.doe@example.com</div>
+                    <div class="btn-group user-helper-dropdown">
+                        <i class="material-icons" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">keyboard_arrow_down</i>
+                        <ul class="dropdown-menu pull-right">
+                            <li data-toggle="modal" data-target="#profil"><a href="javascript:void(0);"><i class="material-icons" >person</i>Profile</a></li>
+                            <li data-toggle="modal" data-target="#ubah"><a href="javascript:void(0);"><i class="material-icons">person</i>Uubah Profile</a></li>
+                            <li><a href="javascript:void(0);"><i class="material-icons">input</i>Sign Out</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- #User Info -->
+            <!-- Menu -->
+            <div class="menu">
+                <ul class="list">
+                    <li class="header">MAIN NAVIGATION</li>
+                    <li  class="active">
+                        <a href="dasboard.html">
+                            <i class="material-icons">home</i>
+                            <span>Dasboard</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="admindanuser.html">
+                            <i class="material-icons">account_box</i>
+                            <span>Admin Dan User</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="recrutan.html">
+                            <i class="material-icons">assignment_ind</i>
+                            <span>Recrutan</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a  href="lowongan.html">
+                            <i class="material-icons">flip_to_back</i>
+                            <span>Lowongan</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);" class="menu-toggle">
+                            <i class="material-icons">library_books</i>
+                            <span>Arsip</span>
+                        </a>
+                        <ul class="ml-menu">
+                            <li>
+                                <a href="assets/pages/forms/basic-form-elements.html">HRD dan User</a>
+                            </li>
+                            <li>
+                                <a href="assets/pages/forms/advanced-form-elements.html">Recrutan</a>
+                            </li>
+                            <li>
+                                <a href="assets/pages/forms/form-examples.html">Lowongan</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a  href="login.html">
+                            <i class="material-icons">keyboard_backspace</i>
+                            <span>Logout</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- #Menu -->
+        </aside>
+        <!-- #END# Left Sidebar -->
+        <!-- Right Sidebar -->
+        <aside id="rightsidebar" class="right-sidebar">
+            <ul class="nav nav-tabs tab-nav-right" role="tablist">
+                <li role="presentation" class="active" style="width: inherit;"><a href="#skins" data-toggle="tab">Tema</a></li>
+                <!-- <li role="presentation"><a href="#settings" data-toggle="tab">SETTINGS</a></li> -->
+            </ul>
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane fade in active in active" id="skins">
+                    <ul class="demo-choose-skin">
+                        <li data-theme="red" class="active">
+                            <div class="red"></div>
+                            <span>Red</span>
+                        </li>
+                        <li data-theme="pink">
+                            <div class="pink"></div>
+                            <span>Pink</span>
+                        </li>
+                        <li data-theme="purple">
+                            <div class="purple"></div>
+                            <span>Purple</span>
+                        </li>
+                        <li data-theme="deep-purple">
+                            <div class="deep-purple"></div>
+                            <span>Deep Purple</span>
+                        </li>
+                        <li data-theme="indigo">
+                            <div class="indigo"></div>
+                            <span>Indigo</span>
+                        </li>
+                        <li data-theme="blue">
+                            <div class="blue"></div>
+                            <span>Blue</span>
+                        </li>
+                        <li data-theme="light-blue">
+                            <div class="light-blue"></div>
+                            <span>Light Blue</span>
+                        </li>
+                        <li data-theme="cyan">
+                            <div class="cyan"></div>
+                            <span>Cyan</span>
+                        </li>
+                        <li data-theme="teal">
+                            <div class="teal"></div>
+                            <span>Teal</span>
+                        </li>
+                        <li data-theme="green">
+                            <div class="green"></div>
+                            <span>Green</span>
+                        </li>
+                        <li data-theme="light-green">
+                            <div class="light-green"></div>
+                            <span>Light Green</span>
+                        </li>
+                        <li data-theme="lime">
+                            <div class="lime"></div>
+                            <span>Lime</span>
+                        </li>
+                        <li data-theme="yellow">
+                            <div class="yellow"></div>
+                            <span>Yellow</span>
+                        </li>
+                        <li data-theme="amber">
+                            <div class="amber"></div>
+                            <span>Amber</span>
+                        </li>
+                        <li data-theme="orange">
+                            <div class="orange"></div>
+                            <span>Orange</span>
+                        </li>
+                        <li data-theme="deep-orange">
+                            <div class="deep-orange"></div>
+                            <span>Deep Orange</span>
+                        </li>
+                        <li data-theme="brown">
+                            <div class="brown"></div>
+                            <span>Brown</span>
+                        </li>
+                        <li data-theme="grey">
+                            <div class="grey"></div>
+                            <span>Grey</span>
+                        </li>
+                        <li data-theme="blue-grey">
+                            <div class="blue-grey"></div>
+                            <span>Blue Grey</span>
+                        </li>
+                        <li data-theme="black">
+                            <div class="black"></div>
+                            <span>Black</span>
+                        </li>
+                    </ul>
+                </div>
+                <div role="tabpanel" class="tab-pane fade" id="settings">
+                    <div class="demo-settings">
+                        <p>GENERAL SETTINGS</p>
+                        <ul class="setting-list">
+                            <li>
+                                <span>Report Panel Usage</span>
+                                <div class="switch">
+                                    <label><input type="checkbox" checked><span class="lever"></span></label>
+                                </div>
+                            </li>
+                            <li>
+                                <span>Email Redirect</span>
+                                <div class="switch">
+                                    <label><input type="checkbox"><span class="lever"></span></label>
+                                </div>
+                            </li>
+                        </ul>
+                        <p>SYSTEM SETTINGS</p>
+                        <ul class="setting-list">
+                            <li>
+                                <span>Notifications</span>
+                                <div class="switch">
+                                    <label><input type="checkbox" checked><span class="lever"></span></label>
+                                </div>
+                            </li>
+                            <li>
+                                <span>Auto Updates</span>
+                                <div class="switch">
+                                    <label><input type="checkbox" checked><span class="lever"></span></label>
+                                </div>
+                            </li>
+                        </ul>
+                        <p>ACCOUNT SETTINGS</p>
+                        <ul class="setting-list">
+                            <li>
+                                <span>Offline</span>
+                                <div class="switch">
+                                    <label><input type="checkbox"><span class="lever"></span></label>
+                                </div>
+                            </li>
+                            <li>
+                                <span>Location Permission</span>
+                                <div class="switch">
+                                    <label><input type="checkbox" checked><span class="lever"></span></label>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <!-- #END# Right Sidebar -->
+    </section>
+
+
+
+    <section class="content">
+        <div class="container-fluid">
+            <div class="row clearfix">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="card">
+                        <div class="header">
+                            <h2>Grafik Recruitmen 9 bulan terakhir</h2>
+                        </div>
+                        <div class="body">
+                            <canvas id="bar_chart" height="300" ></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Counter Examples -->
+            <div class="row">    
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" data-toggle="modal" data-target="#PelamarBaru">
+                    <div class="info-box bg-red">
+                        <div class="icon">
+                            <i class="material-icons">face</i>
+                        </div>
+                        <div class="content">
+                            <div class="text">Pelamar Baru</div>
+                            <div class="number count-to" data-from="0" data-to="125" data-speed="1000" data-fresh-interval="20">125</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" data-toggle="modal" data-target="#InterviewUser">
+                    <div class="info-box bg-indigo">
+                        <div class="icon">
+                            <i class="material-icons">face</i>
+                        </div>
+                        <div class="content">
+                            <div class="text">Interview User</div>
+                            <div class="number count-to" data-from="0" data-to="257" data-speed="1000" data-fresh-interval="20">257</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" data-toggle="modal" data-target="#Onboarding">
+                    <div class="info-box bg-purple">
+                        <div class="icon">
+                            <i class="material-icons">face</i>
+                        </div>
+                        <div class="content">
+                            <div class="text">Onboarding</div>
+                            <div class="number count-to" data-from="0"data-to="257" data-speed="1000" data-fresh-interval="20">257</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" data-toggle="modal" data-target="#WillJoin">
+                    <div class="info-box bg-deep-purple">
+                        <div class="icon">
+                            <i class="material-icons">face</i>
+                        </div>
+                        <div class="content">
+                            <div class="text">Will Join</div>
+                            <div class="number count-to" data-from="0" data-to="257" data-speed="1000" data-fresh-interval="20">257</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- #END# Counter Examples -->
+            
+            <div class="row clearfix">
+                <!-- Donut Chart -->
+                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                    <div class="row clearfix">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <div class="card">
+                                <div class="header">
+                                    <h2>Persentasi Berdasarkan Pendidikan</h2>
+                                </div>
+                                <div class="body" style="text-align: center;">
+                                    <div id="donut_pendidikan" class="graph"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <div class="card">
+                                <div class="header">
+                                    <h2>Persentasi Berdasarkan Lulusan</h2>
+                                </div>
+                                <div class="body" style="text-align: center;">
+                                    <div id="donut_lulusan" class="graph"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <div class="card">
+                                <div class="header" style="text-align: center;">
+                                    <h2>Persentasi Berdasarkan Bidang</h2>
+                                </div>
+                                <div class="body" style="text-align: center;">
+                                    <div id="donut_bidang" class="graph"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <div class="card">
+                                <div class="header">
+                                    <h2>Persentasi Berdasarkan Pengalaman</h2>
+                                </div>
+                                <div class="body" style="text-align: center;">
+                                    <div id="donut_pengalaman" class="graph"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- #END# Donut Chart -->
+                <!-- Donut Chart -->
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="row clearfix">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="card mb-0">
+                                <div class="header">
+                                    <h2>Calender Scejule</h2>
+                                </div>
+                            </div>
+                            <div id="calendar"></div>
+                            <div class="clear"></div>      
+                            <div class="w3lscopy-agile">
+                                <p>Design by <a href="http://w3layouts.com/" target="_blank">W3layouts</a></p>
+                            </div>                            
+                        </div>    
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="modal fade" id="PelamarBaru" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="card">
+                            <div class="body">
+                                <div class="block-header" style="text-align: center;">
+                                    <h2>
+                                        Daftar Pelamar Baru
+                                    </h2>
+                                </div>
+                                <div class="table-responsive">
+                                    <table class="table table-bordered table-striped table-hover js-basic-example dataTable">
+                                        <thead>
+                                            <tr>
+                                                <th>Name</th>
+                                                <th>Email</th>
+                                                <th>Posisi</th>
+                                                <th>Tanggal Input</th>
+                                                <th>Lihat CV</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Hermione Butler</td>
+                                                <td>Regional Director</td>
+                                                <td>London</td>
+                                                <td>2011/03/21</td>
+                                                <td>
+                                                    <a href="cv.html" class="btn btn-warning waves-effect">
+                                                        Click Disini
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Lael Greer</td>
+                                                <td>Systems Administrator</td>
+                                                <td>London</td>
+                                                <td>2009/02/27</td>
+                                                <td>
+                                                    <a href="cv.html" class="btn btn-warning waves-effect">
+                                                        Click Disini
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Jonas Alexander</td>
+                                                <td>Developer</td>
+                                                <td>San Francisco</td>
+                                                <td>2010/07/14</td>
+                                                <td>
+                                                    <a href="cv.html" class="btn btn-warning waves-effect">
+                                                        Click Disini
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Shad Decker</td>
+                                                <td>Regional Director</td>
+                                                <td>Edinburgh</td>
+                                                <td>2008/11/13</td>
+                                                <td>
+                                                    <a href="cv.html" class="btn btn-warning waves-effect">
+                                                        Click Disini
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Michael Bruce</td>
+                                                <td>Javascript Developer</td>
+                                                <td>Singapore</td>
+                                                <td>2011/06/27</td>
+                                                <td>
+                                                    <a href="cv.html" class="btn btn-warning waves-effect">
+                                                        Click Disini
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Donna Snider</td>
+                                                <td>Customer Support</td>
+                                                <td>New York</td>
+                                                <td>2011/01/25</td>
+                                                <td>
+                                                    <a href="cv.html" class="btn btn-warning waves-effect">
+                                                        Click Disini
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="InterviewUser" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="card">
+                            <div class="body">
+                                <div class="block-header" style="text-align: center;">
+                                    <h2>
+                                        Pelamar Tahap Interview
+                                    </h2>
+                                </div>
+                                <div class="table-responsive">
+                                    <table class="table table-bordered table-striped table-hover js-basic-example dataTable">
+                                        <thead>
+                                            <tr>
+                                                <th>Name</th>
+                                                <th>Email</th>
+                                                <th>Posisi</th>
+                                                <th>Tanggal Input</th>
+                                                <th>Lihat CV</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Hermione Butler</td>
+                                                <td>Regional Director</td>
+                                                <td>London</td>
+                                                <td>2011/03/21</td>
+                                                <td>
+                                                    <a href="cv.html" class="btn btn-warning waves-effect">
+                                                        Click Disini
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Lael Greer</td>
+                                                <td>Systems Administrator</td>
+                                                <td>London</td>
+                                                <td>2009/02/27</td>
+                                                <td>
+                                                    <a href="cv.html" class="btn btn-warning waves-effect">
+                                                        Click Disini
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Jonas Alexander</td>
+                                                <td>Developer</td>
+                                                <td>San Francisco</td>
+                                                <td>2010/07/14</td>
+                                                <td>
+                                                    <a href="cv.html" class="btn btn-warning waves-effect">
+                                                        Click Disini
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Shad Decker</td>
+                                                <td>Regional Director</td>
+                                                <td>Edinburgh</td>
+                                                <td>2008/11/13</td>
+                                                <td>
+                                                    <a href="cv.html" class="btn btn-warning waves-effect">
+                                                        Click Disini
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Michael Bruce</td>
+                                                <td>Javascript Developer</td>
+                                                <td>Singapore</td>
+                                                <td>2011/06/27</td>
+                                                <td>
+                                                    <a href="cv.html" class="btn btn-warning waves-effect">
+                                                        Click Disini
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Donna Snider</td>
+                                                <td>Customer Support</td>
+                                                <td>New York</td>
+                                                <td>2011/01/25</td>
+                                                <td>
+                                                    <a href="cv.html" class="btn btn-warning waves-effect">
+                                                        Click Disini
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="Onboarding" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="card">
+                            <div class="body">
+                                <div class="block-header" style="text-align: center;">
+                                    <h2>
+                                        Daftar Pelamar Tahap Onboarding
+                                    </h2>
+                                </div>
+                                <div class="table-responsive">
+                                    <table class="table table-bordered table-striped table-hover js-basic-example dataTable">
+                                        <thead>
+                                            <tr>
+                                                <th>Name</th>
+                                                <th>Email</th>
+                                                <th>Posisi</th>
+                                                <th>Tanggal Input</th>
+                                                <th>Lihat CV</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Hermione Butler</td>
+                                                <td>Regional Director</td>
+                                                <td>London</td>
+                                                <td>2011/03/21</td>
+                                                <td>
+                                                    <a href="cv.html" class="btn btn-warning waves-effect">
+                                                        Click Disini
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Lael Greer</td>
+                                                <td>Systems Administrator</td>
+                                                <td>London</td>
+                                                <td>2009/02/27</td>
+                                                <td>
+                                                    <a href="cv.html" class="btn btn-warning waves-effect">
+                                                        Click Disini
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Jonas Alexander</td>
+                                                <td>Developer</td>
+                                                <td>San Francisco</td>
+                                                <td>2010/07/14</td>
+                                                <td>
+                                                    <a href="cv.html" class="btn btn-warning waves-effect">
+                                                        Click Disini
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Shad Decker</td>
+                                                <td>Regional Director</td>
+                                                <td>Edinburgh</td>
+                                                <td>2008/11/13</td>
+                                                <td>
+                                                    <a href="cv.html" class="btn btn-warning waves-effect">
+                                                        Click Disini
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Michael Bruce</td>
+                                                <td>Javascript Developer</td>
+                                                <td>Singapore</td>
+                                                <td>2011/06/27</td>
+                                                <td>
+                                                    <a href="cv.html" class="btn btn-warning waves-effect">
+                                                        Click Disini
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Donna Snider</td>
+                                                <td>Customer Support</td>
+                                                <td>New York</td>
+                                                <td>2011/01/25</td>
+                                                <td>
+                                                    <a href="cv.html" class="btn btn-warning waves-effect">
+                                                        Click Disini
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="WillJoin" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="card">
+                            <div class="body">
+                                <div class="block-header" style="text-align: center;">
+                                    <h2>
+                                        Daftar Karyawan Baru
+                                    </h2>
+                                </div>
+                                <div class="table-responsive">
+                                    <table class="table table-bordered table-striped table-hover js-basic-example dataTable">
+                                        <thead>
+                                            <tr>
+                                                <th>Name</th>
+                                                <th>Email</th>
+                                                <th>Posisi</th>
+                                                <th>Tanggal Input</th>
+                                                <th>Lihat CV</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Hermione Butler</td>
+                                                <td>Regional Director</td>
+                                                <td>London</td>
+                                                <td>2011/03/21</td>
+                                                <td>
+                                                    <a href="cv.html" class="btn btn-warning waves-effect">
+                                                        Click Disini
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Lael Greer</td>
+                                                <td>Systems Administrator</td>
+                                                <td>London</td>
+                                                <td>2009/02/27</td>
+                                                <td>
+                                                    <a href="cv.html" class="btn btn-warning waves-effect">
+                                                        Click Disini
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Jonas Alexander</td>
+                                                <td>Developer</td>
+                                                <td>San Francisco</td>
+                                                <td>2010/07/14</td>
+                                                <td>
+                                                    <a href="cv.html" class="btn btn-warning waves-effect">
+                                                        Click Disini
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Shad Decker</td>
+                                                <td>Regional Director</td>
+                                                <td>Edinburgh</td>
+                                                <td>2008/11/13</td>
+                                                <td>
+                                                    <a href="cv.html" class="btn btn-warning waves-effect">
+                                                        Click Disini
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Michael Bruce</td>
+                                                <td>Javascript Developer</td>
+                                                <td>Singapore</td>
+                                                <td>2011/06/27</td>
+                                                <td>
+                                                    <a href="cv.html" class="btn btn-warning waves-effect">
+                                                        Click Disini
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Donna Snider</td>
+                                                <td>Customer Support</td>
+                                                <td>New York</td>
+                                                <td>2011/01/25</td>
+                                                <td>
+                                                    <a href="cv.html" class="btn btn-warning waves-effect">
+                                                        Click Disini
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="profil" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-sm mt-12" role="document">
+                    <div class="modal-content">
+                        <div class="body">
+                            <div class="thumbnail mt-1">
+                                <img src="a.jpg" class="mt-2">
+                                <div class="caption tengah">
+                                    <div class="caption">
+                                        <table>
+                                          <tr>
+                                            <td>Nama</td>
+                                            <td>:</td>
+                                            <td>Suyatman</td>
+                                          </tr>
+                                          <tr>
+                                            <td>Email</td>
+                                            <td>:</td>
+                                            <td>suyatman@mail.com</td>
+                                          </tr>
+                                          <tr>
+                                            <td>Jabatan</td>
+                                            <td>:</td>
+                                            <td>Dekan</td>
+                                          </tr>
+                                          <tr>
+                                            <td>Handphone</td>
+                                            <td>:</td>
+                                            <td>0879766745822</td>
+                                          </tr>
+                                          <tr>
+                                            <td>Notifikasi</td>
+                                            <td>:</td>
+                                            <td>Ya</td>
+                                          </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="ubah" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-sm" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            
+
+                            <div class="fileupload fileupload-new" data-provides="fileupload">
+                                <div class="fileupload-preview thumbnail col-sm-12" style="min-height: 200px"></div>
+                                <div class="row">
+                                    <span class="btn btn-file btn-success col-sm-6">
+                                        <span class="fileupload-new">Select image</span><span class="fileupload-exists">Change</span><input type="file" /></span>
+                                    <a href="#" class="btn btn-danger fileupload-exists col-sm-6" data-dismiss="fileupload">Remove</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="modal-body">
+                                    <div class="row clearfix">
+                                        <div class="col-sm-12">
+                                            <div class="form-group">
+                                                <div class="form-line">
+                                                    <input class="form-control" placeholder="Username" type="text">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="form-line">
+                                                    <input class="form-control" placeholder="Password" type="password">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="form-line">
+                                                    <input class="form-control" placeholder="Password" type="password">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="form-line">
+                                                    <input class="form-control" placeholder="Password" type="password">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="form-line">
+                                                    <input class="form-control" placeholder="Password" type="password">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="form-line">
+                                                    <input class="form-control" placeholder="Password" type="password">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="form-line">
+                                                    <input class="form-control" placeholder="Password" type="password">
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <button type="button" class="btn btn-danger waves-effect col-sm-6" data-dismiss="modal">Batal</button>
+                                                <button type="button" class="btn btn-primary waves-effect col-sm-6">Simpan</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+        </div>
+    </section>
+
+<style type="text/css">
+    tr{
+        height: 40px;
+    }    
+</style>
+
+
+
+
+    <!-- Jquery Core Js -->
+    <script src="assets/plugins/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core Js -->
+    <script src="assets/plugins/bootstrap/js/bootstrap.js"></script>
+
+    <!-- Select Plugin Js -->
+    <script src="assets/plugins/bootstrap-select/js/bootstrap-select.js"></script>
+
+    <!-- Slimscroll Plugin Js -->
+    <script src="assets/plugins/jquery-slimscroll/jquery.slimscroll.js"></script>
+
+    <!-- Waves Effect Plugin Js -->
+    <script src="assets/plugins/node-waves/waves.js"></script>
+
+    <!-- Custom Js -->
+    <script src="assets/js/admin.js"></script>
+
+     <!-- Jquery DataTable Plugin Js -->
+    <script src="assets/plugins/jquery-datatable/jquery.dataTables.js"></script>
+    <script src="assets/plugins/jquery-datatable/skin/bootstrap/js/dataTables.bootstrap.js"></script>
+    <script src="assets/plugins/jquery-datatable/extensions/export/dataTables.buttons.min.js"></script>
+    <script src="assets/plugins/jquery-datatable/extensions/export/buttons.flash.min.js"></script>
+    <script src="assets/plugins/jquery-datatable/extensions/export/jszip.min.js"></script>
+    <script src="assets/plugins/jquery-datatable/extensions/export/pdfmake.min.js"></script>
+    <script src="assets/plugins/jquery-datatable/extensions/export/vfs_fonts.js"></script>
+    <script src="assets/plugins/jquery-datatable/extensions/export/buttons.html5.min.js"></script>
+    <script src="assets/plugins/jquery-datatable/extensions/export/buttons.print.min.js"></script>
+    <script src="assets/js/pages/tables/jquery-datatable.js"></script>
+
+
+    <!-- Demo Js -->
+    <script src="assets/js/demo.js"></script>
+
+
+
+    <!-- Slimscroll Plugin Js -->
+    <script src="assets/plugins/jquery-slimscroll/jquery.slimscroll.js"></script>
+
+    <!-- Waves Effect Plugin Js -->
+    <script src="assets/plugins/node-waves/waves.js"></script>
+
+    <!-- PAGE LEVEL SCRIPTS -->
+    <script src="assets/plugins/jasny/js/bootstrap-fileupload.js"></script>
+    <!-- Morris Plugin Js -->
+    <script src="assets/plugins/raphael/raphael.min.js"></script>
+    <script src="assets/plugins/morrisjs/morris.js"></script>
+    <script src="persentasi.js"></script>    
+    <!-- Chart Plugins Js -->
+    <script src="assets/plugins/chartjs/Chart.bundle.js"></script>
+    <!-- calender -->
+    <script src="assets/js/moment.min.js"></script> 
+
+
+
+
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+<script type="text/javascript">
+$(function () {
+    new Chart(document.getElementById("bar_chart").getContext("2d"), getChartJs('bar'));
+});
+
+function getChartJs(type) {
+    var config = null;
+        config = {
+            type: 'bar',
+            data: {
+                labels: ["January", "febrary", "Maret", "April", "Mei", "Juni", "Juli", "Agustus"],
+                datasets: [{
+                    label: "Mengjukan CV",
+                    data: [10, 5, 10, 10, 10, 10, 10],
+                    backgroundColor: 'rgba(0, 188, 212, 0.8)'
+                }, {
+                        label: "Proses Wawancara",
+                        data: [10, 10, 20, 10, 10, 10, 10],
+                        backgroundColor: 'rgba(233, 30, 99, 0.8)'
+                    }, {
+                        label: "Masuk Bekerja",
+                        data: [10, 10, 6, 10, 10, 10, 10],
+                        backgroundColor: 'rgba(23, 233, 99, 0.8)'
+                    }]
+            },
+            options: {
+                legend: {
+                    display: true,
+                    labels: {
+                        fontColor: 'rgb(255, 99, 132)'
+                    }
+                },
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            beginAtZero:true
+                        }
+                    }]
+                },
+                scales: {
+                    xAxes: [{
+                            barPercentage: 0.4
+                    }],
+                    yAxes: [{
+                          display: true,
+                          ticks: {
+                            beginAtZero: true,
+                            min: 0,
+                            max: 50,
+                            stepSize: 5
+                           }
+                    }]
+                }
+            }
+        }
+    return config;
+}
+</script>
+<script>
+!function() {
+
+      var today = moment();
+      function Calendar(selector, events) {
+        this.el = document.querySelector(selector);
+        this.events = events;
+        this.current = moment().date(1);
+        this.draw();
+        var current = document.querySelector('.today');
+        if(current) {
+          var self = this;
+          window.setTimeout(function() {
+            self.openDay(current);
+          }, 500);
+        }
+      }
+
+      Calendar.prototype.draw = function() {
+        //Create Header
+        this.drawHeader();
+
+        //Draw Month
+        this.drawMonth();
+
+        this.drawLegend();
+      }
+
+      Calendar.prototype.drawHeader = function() {
+        var self = this;
+        if(!this.header) {
+          //Create the header elements
+          this.header = createElement('div', 'header');
+          this.header.className = 'headercalender';
+
+          this.title = createElement('h1');
+
+          var right = createElement('div', 'right');
+          right.addEventListener('click', function() { self.nextMonth(); });
+
+          var left = createElement('div', 'left');
+          left.addEventListener('click', function() { self.prevMonth(); });
+
+          //Append the Elements
+          this.header.appendChild(this.title); 
+          this.header.appendChild(right);
+          this.header.appendChild(left);
+          this.el.appendChild(this.header);
+        }
+
+        this.title.innerHTML = this.current.format('MMMM YYYY');
+      }
+
+      Calendar.prototype.drawMonth = function() {
+        var self = this;
+        
+        this.events.forEach(function(ev) {
+         ev.date = self.current.clone().date(Math.random() * (29 - 1) + 1);
+        });
+        
+        
+        if(this.month) {
+          this.oldMonth = this.month;
+          this.oldMonth.className = 'month out ' + (self.next ? 'next' : 'prev');
+          this.oldMonth.addEventListener('webkitAnimationEnd', function() {
+            self.oldMonth.parentNode.removeChild(self.oldMonth);
+            self.month = createElement('div', 'month');
+            self.backFill();
+            self.currentMonth();
+            self.fowardFill();
+            self.el.appendChild(self.month);
+            window.setTimeout(function() {
+              self.month.className = 'month in ' + (self.next ? 'next' : 'prev');
+            }, 16);
+          });
+        } else {
+            this.month = createElement('div', 'month');
+            this.el.appendChild(this.month);
+            this.backFill();
+            this.currentMonth();
+            this.fowardFill();
+            this.month.className = 'month new';
+        }
+      }
+
+      Calendar.prototype.backFill = function() {
+        var clone = this.current.clone();
+        var dayOfWeek = clone.day();
+
+        if(!dayOfWeek) { return; }
+
+        clone.subtract('days', dayOfWeek+1);
+
+        for(var i = dayOfWeek; i > 0 ; i--) {
+          this.drawDay(clone.add('days', 1));
+        }
+      }
+
+      Calendar.prototype.fowardFill = function() {
+        var clone = this.current.clone().add('months', 1).subtract('days', 1);
+        var dayOfWeek = clone.day();
+
+        if(dayOfWeek === 6) { return; }
+
+        for(var i = dayOfWeek; i < 6 ; i++) {
+          this.drawDay(clone.add('days', 1));
+        }
+      }
+
+      Calendar.prototype.currentMonth = function() {
+        var clone = this.current.clone();
+
+        while(clone.month() === this.current.month()) {
+          this.drawDay(clone);
+          clone.add('days', 1);
+        }
+      }
+
+      Calendar.prototype.getWeek = function(day) {
+        if(!this.week || day.day() === 0) {
+          this.week = createElement('div', 'week');
+          this.month.appendChild(this.week);
+        }
+      }
+
+      Calendar.prototype.drawDay = function(day) {
+        var self = this;
+        this.getWeek(day);
+
+        //Outer Day
+        var outer = createElement('div', this.getDayClass(day));
+        outer.addEventListener('click', function() {
+          self.openDay(this);
+        });
+
+        //Day Name
+        var name = createElement('div', 'day-name', day.format('ddd'));
+
+        //Day Number
+        var number = createElement('div', 'day-number', day.format('DD'));
+
+
+        //Events
+        var events = createElement('div', 'day-events');
+        this.drawEvents(day, events);
+
+        outer.appendChild(name);
+        outer.appendChild(number);
+        outer.appendChild(events);
+        this.week.appendChild(outer);
+      }
+
+      Calendar.prototype.drawEvents = function(day, element) {
+        if(day.month() === this.current.month()) {
+          var todaysEvents = this.events.reduce(function(memo, ev) {
+            if(ev.date.isSame(day, 'day')) {
+              memo.push(ev);
+            }
+            return memo;
+          }, []);
+
+          todaysEvents.forEach(function(ev) {
+            var evSpan = createElement('span', ev.color);
+            element.appendChild(evSpan);
+          });
+        }
+      }
+
+      Calendar.prototype.getDayClass = function(day) {
+        classes = ['day'];
+        if(day.month() !== this.current.month()) {
+          classes.push('other');
+        } else if (today.isSame(day, 'day')) {
+          classes.push('today');
+        }
+        return classes.join(' ');
+      }
+
+      Calendar.prototype.openDay = function(el) {
+        var details, arrow;
+        var dayNumber = +el.querySelectorAll('.day-number')[0].innerText || +el.querySelectorAll('.day-number')[0].textContent;
+        var day = this.current.clone().date(dayNumber);
+
+        var currentOpened = document.querySelector('.details');
+
+        //Check to see if there is an open detais box on the current row
+        if(currentOpened && currentOpened.parentNode === el.parentNode) {
+          details = currentOpened;
+          arrow = document.querySelector('.arrow');
+        } else {
+          //Close the open events on differnt week row
+          //currentOpened && currentOpened.parentNode.removeChild(currentOpened);
+          if(currentOpened) {
+            currentOpened.addEventListener('webkitAnimationEnd', function() {
+              currentOpened.parentNode.removeChild(currentOpened);
+            });
+            currentOpened.addEventListener('oanimationend', function() {
+              currentOpened.parentNode.removeChild(currentOpened);
+            });
+            currentOpened.addEventListener('msAnimationEnd', function() {
+              currentOpened.parentNode.removeChild(currentOpened);
+            });
+            currentOpened.addEventListener('animationend', function() {
+              currentOpened.parentNode.removeChild(currentOpened);
+            });
+            currentOpened.className = 'details out';
+          }
+
+          //Create the Details Container
+          details = createElement('div', 'details in');
+
+          //Create the arrow
+          var arrow = createElement('div', 'arrow');
+
+          //Create the event wrapper
+
+          details.appendChild(arrow);
+          el.parentNode.appendChild(details);
+        }
+
+        var todaysEvents = this.events.reduce(function(memo, ev) {
+          if(ev.date.isSame(day, 'day')) {
+            memo.push(ev);
+          }
+          return memo;
+        }, []);
+
+        this.renderEvents(todaysEvents, details);
+
+        arrow.style.left = el.offsetLeft - el.parentNode.offsetLeft + 27 + 'px';
+      }
+
+      Calendar.prototype.renderEvents = function(events, ele) {
+        //Remove any events in the current details element
+        var currentWrapper = ele.querySelector('.events');
+        var wrapper = createElement('div', 'events in' + (currentWrapper ? ' new' : ''));
+
+        events.forEach(function(ev) {
+          var div = createElement('div', 'event');
+          var square = createElement('div', 'event-category ' + ev.color);
+          var span = createElement('span', '', ev.eventName);
+
+          div.appendChild(square);
+          div.appendChild(span);
+          wrapper.appendChild(div);
+        });
+
+        if(!events.length) {
+          var div = createElement('div', 'event empty');
+          var span = createElement('span', '', 'No Events');
+
+          div.appendChild(span);
+          wrapper.appendChild(div);
+        }
+
+        if(currentWrapper) {
+          currentWrapper.className = 'events out';
+          currentWrapper.addEventListener('webkitAnimationEnd', function() {
+            currentWrapper.parentNode.removeChild(currentWrapper);
+            ele.appendChild(wrapper);
+          });
+          currentWrapper.addEventListener('oanimationend', function() {
+            currentWrapper.parentNode.removeChild(currentWrapper);
+            ele.appendChild(wrapper);
+          });
+          currentWrapper.addEventListener('msAnimationEnd', function() {
+            currentWrapper.parentNode.removeChild(currentWrapper);
+            ele.appendChild(wrapper);
+          });
+          currentWrapper.addEventListener('animationend', function() {
+            currentWrapper.parentNode.removeChild(currentWrapper);
+            ele.appendChild(wrapper);
+          });
+        } else {
+          ele.appendChild(wrapper);
+        }
+      }
+
+
+
+
+      Calendar.prototype.drawLegend = function() {
+        var legend = createElement('div', 'legend');
+        var calendars = this.events.map(function(e) {
+          return e.calendar + '|' + e.color;
+        }).reduce(function(memo, e) {
+          if(memo.indexOf(e) === -1) {
+            memo.push(e);
+          }
+          return memo;
+        }, []).forEach(function(e) {
+          var parts = e.split('|');
+          var entry = createElement('span', 'entry ' +  parts[1], parts[0]);
+          legend.appendChild(entry);
+        });
+        this.el.appendChild(legend);
+      }
+
+
+
+
+
+
+
+      Calendar.prototype.nextMonth = function() {
+        this.current.add('months', 1);
+        this.next = true;
+        this.draw();
+      }
+
+      Calendar.prototype.prevMonth = function() {
+        this.current.subtract('months', 1);
+        this.next = false;
+        this.draw();
+      }
+
+
+
+
+      window.Calendar = Calendar;
+
+
+
+      function createElement(tagName, className, innerText) {
+        var ele = document.createElement(tagName);
+        if(className) {
+          ele.className = className;
+        }
+        if(innerText) {
+          ele.innderText = ele.textContent = innerText;
+        }
+        return ele;
+      }
+    }();
+
+    !function() {
+      var data = [
+        { eventName: 'Lunch Meeting w/ Mark', calendar: 'Work', color: 'orange' },
+        { eventName: 'Interview - Jr. Web Developer', calendar: 'Work', color: 'orange' },
+        { eventName: 'Demo New App to the Board', calendar: 'Work', color: 'orange' },
+        { eventName: 'Dinner w/ Marketing', calendar: 'Work', color: 'orange' },
+
+        { eventName: 'Game vs Portalnd', calendar: 'Sports', color: 'blue' },
+        { eventName: 'Game vs Houston', calendar: 'Sports', color: 'blue' },
+        { eventName: 'Game vs Denver', calendar: 'Sports', color: 'blue' },
+        { eventName: 'Game vs San Degio', calendar: 'Sports', color: 'blue' },
+
+        { eventName: 'School Play', calendar: 'Kids', color: 'yellow' },
+        { eventName: 'Parent/Teacher Conference', calendar: 'Kids', color: 'yellow' },
+        { eventName: 'Pick up from Soccer Practice', calendar: 'Kids', color: 'yellow' },
+        { eventName: 'Ice Cream Night', calendar: 'Kids', color: 'yellow' },
+
+        { eventName: 'Free Tamale Night', calendar: 'Other', color: 'green' },
+        { eventName: 'Bowling Team', calendar: 'Other', color: 'green' },
+        { eventName: 'Teach Kids to Code', calendar: 'Other', color: 'green' },
+        { eventName: 'Startup Weekend', calendar: 'Other', color: 'green' }
+      ];
+
+      function addDate(ev) {
+        
+      }
+
+      var calendar = new Calendar('#calendar', data);
+
+    }(); 
+</script> 

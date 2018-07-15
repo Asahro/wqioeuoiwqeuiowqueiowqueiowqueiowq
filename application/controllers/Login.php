@@ -3,6 +3,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 session_start();
 
 class Login extends CI_Controller {
+	
 	public function halamanlogin(){
 		$this->load->view('login/login');
 	}
