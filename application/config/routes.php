@@ -49,6 +49,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | Examples:	my-controller/index	-> my_controller/index
 |		my-controller/my-method	-> my_controller/my_method
 */
+
+
 $route['default_controller'] = 'home';
 $route['login'] = 'login/halamanlogin';
 $route['ceklogin'] = 'login/ceklogin';
@@ -57,6 +59,8 @@ $route['verifikasi-register'] = 'login/verifikasiregister';
 $route['cek-register'] = 'login/cekregister';
 $route['lupa-password'] = 'login/lupapassword';
 $route['verifikasi-lupa-password'] = 'login/verifikasilupapassword';
+
+
 
 
 $route['profil-siswa'] = 'siswa/profil';
@@ -73,6 +77,11 @@ $route['biodata-pengajar'] = 'siswa/biodatapengajar';
 
 
 
+$route['profil-guru'] = 'guru/profil';
+$route['tambah-siswa'] = 'guru/tambahsiswa';
+$route['absen-hari-ini'] = 'guru/formabsen';
+$route['simpan-absen-hari-ini'] = 'guru/simpanabsen';
+$route['absen-siswa/(:any)'] = 'guru/absensiswa/$1';
 
 
 // $route['registrasi-siswa-bimbelan'] = 'siswa/registrasisiswa';

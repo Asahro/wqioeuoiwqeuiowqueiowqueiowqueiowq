@@ -8,7 +8,7 @@ class Login extends CI_Controller {
 		$this->load->view('login/login');
 	}
 	public function ceklogin (){
-		redirect(base_url()."profil-siswa");
+		redirect(base_url()."profil-guru");
 	}
 	public function register(){
 		$this->load->view('login/register');

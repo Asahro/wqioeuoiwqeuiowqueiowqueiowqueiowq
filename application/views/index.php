@@ -1,18 +1,21 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html  class="no-js" lang="en">
    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>EradiSchool</title>
         <meta name="keywords" content="" />
+        <meta charset="ISO-8859-1"> 
 
         <link href="<?php echo base_url(); ?>assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
-        <link href="<?php echo base_url(); ?>assets/css/fontawesome-all.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
         <link href="<?php echo base_url(); ?>assets/css/style.css" rel='stylesheet' type='text/css' media="all">
         <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/lightbox.css">
         <link href="<?php echo base_url(); ?>assets/css/style.css" rel='stylesheet' type='text/css' media="all">
         <link href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
         <link href="//fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
         <script type="application/x-javascript">
 
             addEventListener("load", function () {
@@ -30,7 +33,7 @@
                 <div class="agileits_w3layouts_banner_nav">
                     <div class="header-bar py-sm-2">
                         <div class="container py-2">
-                            <nav class="navbar navbar-expand-lg navbar-light">
+                            <nav class="navbar navbar-expand-lg navbar-light  wow fadeInDown"  data-wow-duration="2s">
                                 <div class="hedder-up">
                                     <h1><a class="navbar-brand" href="<?php echo base_url();?>">EradiSchool</a></h1>
                                 </div>
@@ -67,7 +70,7 @@
                     </div>
                 </div>
                 <div class="w3-banner">
-                    <div id="typer"></div>
+                    <div id="typer">Ads</div>
                     <p class="mx-auto py-3">EradiSchool merupakan sebuah tempat dimana kamu dapat menemukan sebuah cara belajar baru yang lebih mudah, murah, dan effisien.
                     </p>
                 </div>
@@ -100,144 +103,75 @@
     
         <section class="wthree-row w3-about py-md-5" id="layanan">
             <div class="container py-4 mt-2">
-                <h3 class="tittle text-center mb-3">Layanan Kami</h3>
-                <p class="tit text-center mx-auto">Pelayanan kami meliputi !</p>
+                <h3 class="tittle text-center mb-3 wow bounceInDown"  data-wow-duration="2s" >Layanan Kami</h3>
+                <p class="tit text-center mx-auto" ></p>
                     <div class="card-deck pt-4 mt-md-4">
-                        <div class="card">
-                            <img src="<?php echo base_url(); ?>assets/images/g13.jpg" class="img-fluid"  alt="Card image cap">
-                            <div class="card-body w3ls-card">
-                            <h5 class="card-title">Bimbel Privat Per 1 Pertemuan</h5>
-                            <p class="card-text mb-3 ">Sudah tidak perlu lagi membeli bimbel dengan harga mahal untuk jumlah pertemuan yang banyak. Cukup banyar persatu pertemuan</p>
-                            <a href="#" class="blog-btn" data-toggle="modal" data-target="#myModal">Harga</a>
+                        <div class="card wow fadeInLeft"  data-wow-duration="2s">
+                            <img src="<?php echo base_url(); ?>assets/images/bimbel-privat.jpg" class="img-fluid"  alt="Card image cap">
+                                <div class="card-body w3ls-card">
+                                <h5 class="card-title">Bimbel Privat Per 1 Pertemuan</h5>
+                                <p class="card-text mb-3 ">Sudah tidak perlu lagi membeli bimbel dengan harga mahal untuk jumlah pertemuan yang banyak. Cukup banyar persatu pertemuan</p>
+                                <a href="#" class="blog-btn" data-toggle="modal" data-target="#myModal">Harga</a>
+                            </div>
                         </div>
-                  </div>
-                  <div class="card">
-                    <img src="<?php echo base_url(); ?>assets/images/g14.jpg" class="img-fluid"  alt="Card image cap">
-                    <div class="card-body w3ls-card">
-                      <h5 class="card-title">Managemen Sekolah Digital</h5>
-                       <p class="card-text mb-3 ">Tidak perlu repot melakukan administrasi sekolah. Pendaftaran, Pembelajaran, dan Penilaian semua terangkum disini !</p>
-                        <a href="#" class="blog-btn" data-toggle="modal" data-target="#myModal">Harga</a>
+                        <div class="card wow flipInX"  data-wow-duration="1s" >
+                            <img src="<?php echo base_url(); ?>assets/images/sekolah.jpg" class="img-fluid"  alt="Card image cap">
+                            <div class="card-body w3ls-card">
+                                <h5 class="card-title">Managemen Sekolah Digital</h5>
+                                <p class="card-text mb-3 ">Tidak perlu repot melakukan administrasi sekolah. Pendaftaran, Pembelajaran, dan Penilaian semua terangkum disini !</p>
+                                <a href="#" class="blog-btn" data-toggle="modal" data-target="#myModal">Harga</a>
+                            </div>
+                        </div>
+                        <div class="card wow fadeInRight"  data-wow-duration="2s" >
+                            <img src="<?php echo base_url(); ?>assets/images/belajar-online.jpg" class="img-fluid"  alt="Card image cap">
+                            <div class="card-body w3ls-card">
+                                <h5 class="card-title">Online Studi</h5>
+                                <p class="card-text mb-3 ">Nikmati mudahnya belajar online dengan berbagai macam metode. Mulai dari video, test online, ebook, dan soal soal ujian.</p>
+                                <a href="#" class="blog-btn" data-toggle="modal" data-target="#myModal">Harga</a>
+                            </div>
+                        </div>
                     </div>
-                  </div>
-                  <div class="card">
-                    <img src="<?php echo base_url(); ?>assets/images/g12.jpg" class="img-fluid"  alt="Card image cap">
-                    <div class="card-body w3ls-card">
-                      <h5 class="card-title">Online Studi</h5>
-                       <p class="card-text mb-3 ">Nikmati mudahnya belajar online dengan berbagai macam metode. Mulai dari video, test online, ebook, dan soal soal ujian.</p>
-                      <a href="#" class="blog-btn" data-toggle="modal" data-target="#myModal">Harga</a>
-                    </div>
-                  </div>
                 </div>
-            </div>
-        </section>
-        <!-- //about -->
-        <!-- services -->
+            </section>
+            <!-- //about -->
+            <!-- services -->
     <div class="agileits-services py-md-5">
         <div class="container py-4 mt-2">
-            <h3 class="tittle text-center mb-3 text-white">Kelebihan Kami</h3>
-                <p class="tit text-center mx-auto text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius eum inventore consectetur dolorum, voluptatum possimus temporibus vel ab, nesciunt quod!</p>
-            <div class="row agileits-services-row pt-4 mt-md-4">
-                <div class="col-md-4 agileits-services-grids">
-                    <div class="row ser-tp">
-                        <div class="col-xs-3 wthree-ser">
-                            <i class="fab fa-accessible-icon"></i>
+            <h3 class="tittle text-center mb-3 text-white mb-3 wow bounceInDown"  data-wow-duration="2s" >Kelebihan Kami</h3>
+                <p class="tit text-center mx-auto text-white"></p>
+                <div class="row agileits-services-row pt-4 mt-md-4">
+                    <div class="col-md-4 agileits-services-grids wow fadeInRight"  data-wow-duration="2s" >
+                        <div class="row ser-tp">
+                            <div class="col-xs-3 wthree-ser">
+                                <i class="fas fa-money-bill"></i>
+                            </div>
+                            <div class="col-xs-9 wthree-heading">
+                                <h4 class="pl-3">Harga Terjangkau</h4>
+                            </div>
+                        <p class="mt-3">Dibandingkan dengan Quipers dan Ruang Guru harga kami lebih baik dan lebih terjangkau</p>
                         </div>
-                        <div class="col-xs-9 wthree-heading">
-                            <h4 class="pl-3">Comfortable</h4>
-                        </div>
-                    <p class="mt-3">Itaque earum rerum hic tenetur a sapiente delectus reiciendis maiores alias consequatur aut</p>
                     </div>
-                </div>
-                <div class="col-md-4 agileits-services-grids">
-                    <div class="row ser-tp">    
-                        <div class="col-xs-3 wthree-ser">
-                            <i class="fas fa-anchor"></i>
+                    <div class="col-md-4 agileits-services-grids wow fadeInRight"  data-wow-duration="2s" >
+                        <div class="row ser-tp">    
+                            <div class="col-xs-3 wthree-ser">
+                                <i class="fab fa-connectdevelop"></i>
+                            </div>
+                            <div class="col-xs-9 wthree-heading">
+                                <h4 class="pl-3">Akses Mudah</h4>
+                            </div>
+                        <p class="mt-3">Belajar Kapanpun dan Dimanapun dengan layani kami dapat meningkatkan semangat belajar</p>
                         </div>
-                        <div class="col-xs-9 wthree-heading">
-                            <h4 class="pl-3">Destination</h4>
-                        </div>
-                    <p class="mt-3">Itaque earum rerum hic tenetur a sapiente delectus reiciendis maiores alias consequatur aut</p>
                     </div>
-                </div>
-                <div class="col-md-4 agileits-services-grids">
-                    <div class="row ser-tp">
-                        <div class="col-xs-3 wthree-ser">
-                            <i class="fab fa-avianex"></i>
+                    <div class="col-md-4 agileits-services-grids wow fadeInRight"  data-wow-duration="2s" >
+                        <div class="row ser-tp">
+                            <div class="col-xs-3 wthree-ser">
+                                <i class="far fa-save"></i>
+                            </div>
+                            <div class="col-xs-9 wthree-heading">
+                                <h4 class="pl-3">Data Aman</h4>
+                            </div>
+                        <p class="mt-3">Akses data anda kapanpun dimanapun. Dengan hosting luas, anda dapat menyimpan semua data</p>
                         </div>
-                        <div class="col-xs-9 wthree-heading">
-                            <h4 class="pl-3">Schedule</h4>
-                        </div>
-                    <p class="mt-3">Itaque earum rerum hic tenetur a sapiente delectus reiciendis maiores alias consequatur aut</p>
-                    </div>
-                </div>
-            </div>
-                        <div class="row agileits-services-row pt-4 mt-md-4">
-                <div class="col-md-4 agileits-services-grids">
-                    <div class="row ser-tp">
-                        <div class="col-xs-3 wthree-ser">
-                            <i class="fab fa-accessible-icon"></i>
-                        </div>
-                        <div class="col-xs-9 wthree-heading">
-                            <h4 class="pl-3">Comfortable</h4>
-                        </div>
-                    <p class="mt-3">Itaque earum rerum hic tenetur a sapiente delectus reiciendis maiores alias consequatur aut</p>
-                    </div>
-                </div>
-                <div class="col-md-4 agileits-services-grids">
-                    <div class="row ser-tp">    
-                        <div class="col-xs-3 wthree-ser">
-                            <i class="fas fa-anchor"></i>
-                        </div>
-                        <div class="col-xs-9 wthree-heading">
-                            <h4 class="pl-3">Destination</h4>
-                        </div>
-                    <p class="mt-3">Itaque earum rerum hic tenetur a sapiente delectus reiciendis maiores alias consequatur aut</p>
-                    </div>
-                </div>
-                <div class="col-md-4 agileits-services-grids">
-                    <div class="row ser-tp">
-                        <div class="col-xs-3 wthree-ser">
-                            <i class="fab fa-avianex"></i>
-                        </div>
-                        <div class="col-xs-9 wthree-heading">
-                            <h4 class="pl-3">Schedule</h4>
-                        </div>
-                    <p class="mt-3">Itaque earum rerum hic tenetur a sapiente delectus reiciendis maiores alias consequatur aut</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row agileits-services-row-2">
-                <div class="col-md-4 agileits-services-grids">
-                    <div class="row ser-tp">    
-                        <div class="col-xs-3 wthree-ser">
-                            <i class="fas fa-bus"></i>
-                        </div>
-                        <div class="col-xs-9 wthree-heading">
-                            <h4 class="pl-3">Destination</h4>
-                        </div>
-                    <p class="mt-3">Itaque earum rerum hic tenetur a sapiente delectus reiciendis maiores alias consequatur aut</p>
-                    </div>
-                </div>
-                <div class="col-md-4 agileits-services-grids">
-                    <div class="row ser-tp">    
-                        <div class="col-xs-3 wthree-ser">
-                            <i class="fas fa-fighter-jet"></i>
-                        </div>
-                        <div class="col-xs-9 wthree-heading">
-                            <h4 class="pl-3">Schedule</h4>
-                        </div>
-                        <p class="mt-3">Itaque earum rerum hic tenetur a sapiente delectus reiciendis maiores alias consequatur aut</p>
-                    </div>
-                </div>
-                <div class="col-md-4 agileits-services-grids">
-                    <div class="row ser-tp">    
-                        <div class="col-xs-3 wthree-ser">
-                            <i class="fas fa-car"></i>
-                        </div>
-                        <div class="col-xs-9 wthree-heading">
-                            <h4 class="pl-3">Comfortable</h4>
-                        </div>
-                        <p class="mt-3">Itaque earum rerum hic tenetur a sapiente delectus reiciendis maiores alias consequatur aut</p>
                     </div>
                 </div>
             </div>
@@ -248,65 +182,65 @@
     <!--gallery-->
     <section class="gallery py-md-5" id="galeri">
         <div class="container py-4 mt-2">
-            <h2 class="tittle text-center mb-3">Galeri Kegiatan</h2>
-            <p class="tit text-center mx-auto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius eum inventore consectetur dolorum, voluptatum possimus temporibus vel ab, nesciunt quod!</p>
+            <h2 class="tittle text-center mb-3 wow bounceInUp"  data-wow-duration="2s" >Galeri Kegiatan</h2>
+            <p class="tit text-center mx-auto"></p>
             <div class="row gallery-info pt-4 mt-md-4">
-                <div class="col-md-3 gallery-grids">
+                <div class="col-md-3 gallery-grids wow bounceInUp"  data-wow-duration="2s" >
                     <a href="<?php echo base_url(); ?>assets/images/g3.jpg" class="gallery-box" data-lightbox="example-set" data-title="">
                         <img src="<?php echo base_url(); ?>assets/images/g3.jpg" alt="" class="img-responsive zoom-img">
                     </a>
                 </div>
-                <div class="col-md-3 gallery-grids">
+                <div class="col-md-3 gallery-grids wow bounceInUp"  data-wow-duration="2s" >
                     <a href="<?php echo base_url(); ?>assets/images/g4.jpg" class="gallery-box" data-lightbox="example-set" data-title="">
                         <img src="<?php echo base_url(); ?>assets/images/g4.jpg" alt="" class="img-responsive zoom-img">
                     </a>
                 </div>
-                <div class="col-md-3 gallery-grids">
+                <div class="col-md-3 gallery-grids wow bounceInUp"  data-wow-duration="2s" >
                     <a href="<?php echo base_url(); ?>assets/images/g5.jpg" class="gallery-box" data-lightbox="example-set" data-title="">
                         <img src="<?php echo base_url(); ?>assets/images/g5.jpg" alt="" class="img-responsive zoom-img">
                     </a>
                 </div>
-                <div class="col-md-3 gallery-grids">
+                <div class="col-md-3 gallery-grids wow bounceInUp"  data-wow-duration="2s" >
                     <a href="<?php echo base_url(); ?>assets/images/g6.jpg" class="gallery-box" data-lightbox="example-set" data-title="">
                         <img src="<?php echo base_url(); ?>assets/images/g6.jpg" alt="" class="img-responsive zoom-img">
                     </a>
                 </div>
-                <div class="col-md-3 gallery-grids">
+                <div class="col-md-3 gallery-grids wow bounceInUp"  data-wow-duration="2s" >
                     <a href="<?php echo base_url(); ?>assets/images/g7.jpg" class="gallery-box" data-lightbox="example-set" data-title="">
                         <img src="<?php echo base_url(); ?>assets/images/g7.jpg" alt="" class="img-responsive zoom-img">
                     </a>
                 </div>
-                <div class="col-md-3 gallery-grids">
+                <div class="col-md-3 gallery-grids wow bounceInUp"  data-wow-duration="2s" >
                     <a href="<?php echo base_url(); ?>assets/images/g8.jpg" class="gallery-box" data-lightbox="example-set" data-title="">
                         <img src="<?php echo base_url(); ?>assets/images/g8.jpg" alt="" class="img-responsive zoom-img">
                     </a>
                 </div>
-                <div class="col-md-3 gallery-grids">
+                <div class="col-md-3 gallery-grids wow bounceInUp"  data-wow-duration="2s" >
                     <a href="<?php echo base_url(); ?>assets/images/g9.jpg" class="gallery-box" data-lightbox="example-set" data-title="">
                         <img src="<?php echo base_url(); ?>assets/images/g9.jpg" alt="" class="img-responsive zoom-img">
                     </a>
                 </div>
-                <div class="col-md-3 gallery-grids">
+                <div class="col-md-3 gallery-grids wow bounceInUp"  data-wow-duration="2s" >
                     <a href="<?php echo base_url(); ?>assets/images/g10.jpg" class="gallery-box" data-lightbox="example-set" data-title="">
                         <img src="<?php echo base_url(); ?>assets/images/g10.jpg" alt="" class="img-responsive zoom-img">
                     </a>
                 </div>
-                <div class="col-md-3 gallery-grids">
+                <div class="col-md-3 gallery-grids wow bounceInUp"  data-wow-duration="2s" >
                     <a href="<?php echo base_url(); ?>assets/images/g11.jpg" class="gallery-box" data-lightbox="example-set" data-title="">
                         <img src="<?php echo base_url(); ?>assets/images/g11.jpg" alt="" class="img-responsive zoom-img">
                     </a>
                 </div>
-                <div class="col-md-3 gallery-grids">
+                <div class="col-md-3 gallery-grids wow bounceInUp"  data-wow-duration="2s" >
                     <a href="<?php echo base_url(); ?>assets/images/g12.jpg" class="gallery-box" data-lightbox="example-set" data-title="">
                         <img src="<?php echo base_url(); ?>assets/images/g12.jpg" alt="" class="img-responsive zoom-img">
                     </a>
                 </div>
-                <div class="col-md-3 gallery-grids">
+                <div class="col-md-3 gallery-grids wow bounceInUp"  data-wow-duration="2s" ">
                     <a href="<?php echo base_url(); ?>assets/images/g13.jpg" class="gallery-box" data-lightbox="example-set" data-title="">
                         <img src="<?php echo base_url(); ?>assets/images/g13.jpg" alt="" class="img-responsive zoom-img">
                     </a>
                 </div>
-                <div class="col-md-3 gallery-grids">
+                <div class="col-md-3 gallery-grids wow bounceInUp"  data-wow-duration="2s" >
                     <a href="<?php echo base_url(); ?>assets/images/g14.jpg" class="gallery-box" data-lightbox="example-set" data-title="">
                         <img src="<?php echo base_url(); ?>assets/images/g14.jpg" alt="" class="img-responsive zoom-img">
                     </a>
@@ -318,10 +252,10 @@
     <!--//gallery-->
 
     <!-- team -->
-    <section class="agileits-services py-md-5" id="mitra">
-        <div class="container py-4 mt-2">
-            <h3 class="tittle text-center mb-3 text-white">Mitra Sekolah</h3>
-            <p class="tit text-center mx-auto text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius eum inventore consectetur dolorum, voluptatum possimus temporibus vel ab, nesciunt quod!</p>
+    <section class="agileits-mitra py-md-5" id="mitra">
+        <div class="container py-4 mt-2 wow bounceInUp"  data-wow-duration="2s" >
+            <h3 class="tittle text-center mb-3 text-white">Mitra</h3>
+            <p class="tit text-center mx-auto text-white"></p>
 
 
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -413,6 +347,7 @@
                                             <i class="fab fa-pinterest-p"></i>
                                         </a>
                                     </div>
+
                                 </div>
                             </div>
                         </div>
@@ -421,7 +356,9 @@
                 </div>
                 <div class="carousel-item">
                   <div class="d-block w-100">
-                                            <div class="row inner-sec-w3layouts-agileinfo pt-4 mt-md-4">
+                        <div class="row inner-sec-w3layouts-agileinfo pt-4 mt-md-4">
+
+
                             <div class="col-md-3 col-sm-6 team-grids aos-init" data-aos="flip-left">
                                 <img src="<?php echo base_url(); ?>assets/images/te1.jpg" class="img-responsive" alt="">
                                 <div class="team-info">
@@ -445,6 +382,9 @@
 
                                 </div>
                             </div>
+                            
+
+
                             <div class="col-md-3 col-sm-6 team-grids aos-init" data-aos="flip-right">
                                 <img src="<?php echo base_url(); ?>assets/images/te2.jpg" class="img-responsive" alt="">
                                 <div class="team-info">
@@ -466,6 +406,9 @@
                                     </div>
                                 </div>
                             </div>
+                            
+
+
                             <div class="col-md-3 col-sm-6 team-grids aos-init" data-aos="flip-left">
                                 <img src="<?php echo base_url(); ?>assets/images/te3.jpg" class="img-responsive" alt="">
                                 <div class="team-info">
@@ -487,6 +430,9 @@
                                     </div>
                                 </div>
                             </div>
+                            
+
+
                             <div class="col-md-3 col-sm-6 team-grids aos-init" data-aos="flip-right">
                                 <img src="<?php echo base_url(); ?>assets/images/te4.jpg" class="img-responsive" alt="">
                                 <div class="team-info">
@@ -606,11 +552,11 @@
                 </div>
               </div>
 
-              <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <a class="carousel-control-prev d-none" href="#carouselExampleControls" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
               </a>
-              <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <a class="carousel-control-next d-none" href="#carouselExampleControls" role="button" data-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
               </a>
@@ -621,181 +567,30 @@
     <!-- //team -->
 
 
-
-
-    <!-- news  -->
-        <section class="wthree-row w3-about py-md-5">
-        <div class="container py-4 mt-2">
-            <h3 class="tittle text-center mb-3">Mitra Pengajar</h3>
-            <p class="tit text-center mx-auto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius eum inventore consectetur dolorum, voluptatum possimus temporibus vel ab, nesciunt quod!</p>
-              <div class="card-deck pt-4 mt-md-4">
-
-
-                  <div class="card">
-                    <img src="<?php echo base_url(); ?>assets/images/g10.jpg" class="img-fluid"  alt="Card image cap">
-                    <div class="card-body w3ls-card">
-                      <h4 class="card-title">Nama Pengajar</h4>
-                       <p class="card-text mb-3 ">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#">Lihat CV Lengkap</a>
-                    </div>
-                    <div class="card-footer">
-                      <small class="text-muted">Bergabung3bulan lalu</small>
-                    </div>
-                  </div>
-
-
-
-                  <div class="card">
-                    <img src="<?php echo base_url(); ?>assets/images/g11.jpg" class="img-fluid"  alt="Card image cap">
-                    <div class="card-body w3ls-card">
-                      <h4 class="card-title">Free service seems to good to be true</h4>
-                      <p class="card-text mb-3 ">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" data-toggle="modal" data-target="#myModal">Read More</a>
-                    </div>
-                    <div class="card-footer">
-                      <small class="text-muted">Last updated 3 mins ago</small>
-                    </div>
-                  </div>
-
-
-                  <div class="card">
-                    <img src="<?php echo base_url(); ?>assets/images/g9.jpg" class="img-fluid"  alt="Card image cap">
-                    <div class="card-body w3ls-card">
-                      <h4 class="card-title">Free service seems to good to be true</h4>
-                       <p class="card-text mb-3 ">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                      <a href="#" data-toggle="modal" data-target="#myModal">Read More</a>
-                    </div>
-                    <div class="card-footer">
-                      <small class="text-muted">Last updated 3 mins ago</small>
-                    </div>
-                  </div>
-                </div>
-            </div>
-        </section>
-        <!-- //news -->
-
-
-    <!-- team -->
-    <section class="agileits-services py-md-5 d-none">
-        <div class="container py-4 mt-2">
-            <h3 class="tittle text-center mb-3 text-white">Mitra Bimbel</h3>
-            <p class="tit text-center mx-auto text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius eum inventore consectetur dolorum, voluptatum possimus temporibus vel ab, nesciunt quod!</p>
-            <div class="row inner-sec-w3layouts-agileinfo pt-4 mt-md-4">
-                <div class="col-md-3 col-sm-6 team-grids aos-init" data-aos="flip-left">
-                    <img src="<?php echo base_url(); ?>assets/images/te1.jpg" class="img-responsive" alt="">
-                    <div class="team-info">
-                        <div class="caption">
-                            <h4>John Doe</h4>
-                            <h6>Lorem
-                                </h6><h6>
-                        </h6></div>
-                        <div class="social-icons-section">
-                            <a class="fac" href="#">
-                                <i class="fab fa-facebook-f"></i>
-                            </a>
-                            <a class="twitter" href="#">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                            <a class="pinterest" href="#">
-                                <i class="fab fa-pinterest-p"></i>
-                            </a>
-
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 team-grids aos-init" data-aos="flip-right">
-                    <img src="<?php echo base_url(); ?>assets/images/te2.jpg" class="img-responsive" alt="">
-                    <div class="team-info">
-                        <div class="caption">
-                            <h4>Alina Smith</h4>
-                            <h6>Lorem</h6>
-                        </div>
-                        <div class="social-icons-section">
-                            <a class="fac" href="#">
-                                <i class="fab fa-facebook-f"></i>
-                            </a>
-                            <a class="twitter" href="#">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                            <a class="pinterest" href="#">
-                                <i class="fab fa-pinterest-p"></i>
-                            </a>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 team-grids aos-init" data-aos="flip-left">
-                    <img src="<?php echo base_url(); ?>assets/images/te3.jpg" class="img-responsive" alt="">
-                    <div class="team-info">
-                        <div class="caption">
-                            <h4>Adam Lobster</h4>
-                            <h6>Lorem</h6>
-                        </div>
-                        <div class="social-icons-section">
-                            <a class="fac" href="#">
-                                <i class="fab fa-facebook-f"></i>
-                            </a>
-                            <a class="twitter" href="#">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                            <a class="pinterest" href="#">
-                                <i class="fab fa-pinterest-p"></i>
-                            </a>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 team-grids aos-init" data-aos="flip-right">
-                    <img src="<?php echo base_url(); ?>assets/images/te4.jpg" class="img-responsive" alt="">
-                    <div class="team-info">
-                        <div class="caption">
-                            <h4>Christina </h4>
-                            <h6>Lorem</h6>
-                        </div>
-                        <div class="social-icons-section">
-                            <a class="fac" href="#">
-                                <i class="fab fa-facebook-f"></i>
-                            </a>
-                            <a class="twitter" href="#">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                            <a class="pinterest" href="#">
-                                <i class="fab fa-pinterest-p"></i>
-                            </a>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- //team -->
-
             <!-- features -->
-    <section class="agileits-services py-md-5" id="testimoni">
+    <section class="kontak py-md-5" style="background: #d3d3d3" id="testimoni">
         <div class="container py-4 mt-2">
-                <h3 class="tittle text-center mb-3 text-white">Testimoni</h3>
-                <p class="tit text-center mx-auto text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius eum inventore consectetur dolorum, voluptatum possimus temporibus vel ab, nesciunt quod!</p>
+                <h3 class="tittle text-center mb-3">Testimoni</h3>
+                <p class="tit text-center mx-auto text-white"></p>
             
             <div class="row about-main pt-4 mt-md-4 text-white">
                 <div class="col-lg-5 about-right">
-                <h4 class="text-white">Join to Happy Customers</h4>
-                <p class="Lor my-3 text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
-                <a href="#" class="blog-btn" data-toggle="modal" data-target="#myModal">Join Us Now</a>
+                <h4 >Dengan Kepuasan Pesaing Mu, Kamu Masih Ragu ?</h4>
+                <p class="Lor my-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+                <a href="<?=base_url()?>register" class="blog-btn">Join Us Now</a>
                 <!-- stats -->
                     <div class="stats mt-3">
                         <div class="row stats_inner">
                             <div class="col-md-6 col-sm-6 col-xs-6 stat-grids mb-3">
                                 <p class="counter-agileits-w3layouts">132</p>
                                 <div class="stats-text-wthree">
-                                    <h3 class=" text-white">Customers</h3>
+                                    <h3 class="">Sekolah</h3>
                                 </div>
                             </div>
                             <div class="col-md-6 col-sm-6 col-xs-6 stat-grids mb-3">
                                 <p class="counter-agileits-w3layouts">145</p>
                                 <div class="stats-text-wthree">
-                                    <h3 class="text-white">Hosted</h3>
+                                    <h3 class="">Bimbel</h3>
                                 </div>
                             </div>
                         </div>
@@ -803,13 +598,13 @@
                             <div class="col-md-6 col-sm-6 col-xs-6 stat-grids">
                                 <p class="counter-agileits-w3layouts">120</p>
                                 <div class="stats-text-wthree">
-                                    <h3 class="text-white"> Professionals</h3>
+                                    <h3 class="">Pengajar</h3>
                                 </div>
                             </div>
                             <div class="col-md-6 col-sm-6 col-xs-6 stat-grids">
-                                <p class="counter-agileits-w3layouts">64</p>
+                                <p class="counter-agileits-w3layouts">2264</p>
                                 <div class="stats-text-wthree">
-                                    <h3 class="text-white">Agents</h3>
+                                    <h3 class="">Siswa</h3>
                                 </div>
                             </div>
                             
@@ -820,7 +615,7 @@
 
                 <div class="col-lg-7 about-left">
                         <!-- testimonials -->
-                        <div class="w3_agile-section testimonials text-center" id="testimonials">
+                        <div class="w3_agile-section testimonials text-center wow bounceInDown" id="testimonials">
                             <div class=" w3ls-team-info test-bg">
                                 <div class="testi-left">
                                     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -955,10 +750,10 @@
 
 
     <!--/contact-->
-    <section class="contact  py-md-5" id="kontak">
+    <section class="contact  py-md-5" style="background: #b1b1b1" id="kontak">
         <div class="container py-4 mt-2">
         <h2 class="tittle text-center mb-3">Kontak Kami</h2>
-            <p class="tit text-center mx-auto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius eum inventore consectetur dolorum, voluptatum possimus temporibus vel ab, nesciunt quod!</p>
+            <p class="tit text-center mx-auto"></p>
             <div class="row inner-sec-w3layouts-agileinfo pt-4 mt-md-4">
                 <div class="contact-map">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d273690.1704056744!2d-74.59673804968976!3d40.72070782081099!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sin!4v1521532554788" class="map" style="border:0" allowfullscreen=""></iframe>
@@ -1151,19 +946,23 @@
 </div>
 <!-- //Modal -->
     <script src="<?php echo base_url(); ?>assets/js/jquery.min.js"></script>
+
+    <script src='<?php echo base_url(); ?>assets/js/jquery.typer.js'></script>
     <script src="<?php echo base_url(); ?>assets/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/move-top.js"></script>
     <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/easing.js"></script>
     <script src="<?php echo base_url(); ?>assets/js/jquery.waypoints.min.js"></script>
     <script src="<?php echo base_url(); ?>assets/js/jquery.countup.js"></script>
     <script src="<?php echo base_url(); ?>assets/js/main.js"></script>
-    <script src='<?php echo base_url(); ?>assets/js/jquery.typer.js'></script>
     <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/move-top.js"></script>
     <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/easing.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
    </body>
 </html>
 
     <script type="text/javascript">
+        new WOW().init();
+
         $('a[href*="#"]').on('click', function (e) {
             e.preventDefault();
 
@@ -1173,14 +972,11 @@
         });
 
         $(document).ready(function() {
-            $().UItoTop({ easingType: 'easeOutQuart' });
-                                
-            });
-    </script>
-    <script>
+            $().UItoTop({ easingType: 'easeOutQuart' });                        
+        });
+
         $('.counter-agileits-w3layouts').countUp();
-    </script>
-    <script>
+
     var win = $(window),
         foo = $('#typer');
 
@@ -1194,29 +990,34 @@
             fontSize: fontSize * .8 + 'px'
         });
     }).resize();
-</script>
 
-<script type="text/javascript">
     jQuery(document).ready(function($) {
         $(".scroll").click(function(event){     
             event.preventDefault();
             $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
         });
     });
-</script> 
 
-
-<script type="text/javascript">
     $(document).ready(function() {
         $().UItoTop({ easingType: 'easeOutQuart' });
                             
         });
-</script>
-<script type="text/javascript">
+
     jQuery(document).ready(function($) {
         $(".scroll").click(function(event){     
             event.preventDefault();
             $('html,body').animate({scrollTop:$(this.hash).offset().top},2000);
         });
     });
-</script> 
+</script>
+<style type="text/css">
+.carousel-inner > .item {
+    position: relative;
+    display: none;
+    -webkit-transition: 0.6s ease-in-out left;
+    -moz-transition: 0.6s ease-in-out left;
+    -o-transition: 0.6s ease-in-out left;
+    transition: 0.6s ease-in-out left;
+}
+
+</style>

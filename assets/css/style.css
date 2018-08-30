@@ -356,7 +356,7 @@ nav.navbar.navbar-toggleable-md.navbar-light {
 /*-- //nav --*/
 /*-- //header --*/
 .banner1{
-	 background: url(../images/bg.jpg)no-repeat 0px 0px;
+	 background: url(../images/background-eradischool.jpg)no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -366,7 +366,7 @@ nav.navbar.navbar-toggleable-md.navbar-light {
 } 
 /*--/banner --*/
 .main_section_agile{
-    background: url(../images/bg.jpg)no-repeat 0px 0px;
+    background: url(../images/background-eradischool.jpg)no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -442,13 +442,24 @@ h3.tittle,h2.tittle {
 /*-- stats --*/
 /*-- services --*/
 .agileits-services {
-    background: url(../images/bg2.jpg)no-repeat 0px 0px;
+    background: url(../images/cara-belajar-modern.jpg)no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
 }
+
+
+.agileits-mitra {
+    background: url(../images/cara-baru-belajar.jpg)no-repeat 0px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+}
+
 .wthree-heading h4 {
     font-size: 23px;
     color: #333;
